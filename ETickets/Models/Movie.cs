@@ -32,7 +32,7 @@ namespace ETickets.Models
 
         //Producer
         public int ProducerId { get; set; }
-        [ForeignKey("CinemaId")]
+        [ForeignKey("ProducerId")]
         public Producer Producer { get; set; }
     }
 }
